@@ -11,7 +11,7 @@ class PersonaListView(ListView):
     model = Persona
     template_name = 'persona/lista.html'
     context_object_name = 'personas'
-    paginate_by = 2  # Número de personas por página
+    paginate_by = 10  # Número de personas por página
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)

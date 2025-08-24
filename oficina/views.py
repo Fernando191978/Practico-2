@@ -12,7 +12,7 @@ class OficinaListView(ListView):
     model = Oficina
     template_name = 'oficina/lista.html'
     context_object_name = 'oficinas'
-    paginate_by = 2  # Número de oficinas por página
+    paginate_by = 5  # Número de oficinas por página
     
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -51,6 +51,8 @@ class OficinaDetailView(DetailView):
         oficina = self.get_object()
         context['titulo'] = 'Detalle de Oficina'
         context['cantidad_empleados'] = oficina.personas.count()  # type: ignore # Suma empleados relacionados
+        context['empleados'] = oficina.personas.all()  # type: ignore # Lista de empleados relacionados
+        context['home_url'] = 'oficina:lista'
         return context
 
 class OficinaEmpleadoListView(ListView):

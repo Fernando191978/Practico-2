@@ -16,8 +16,7 @@
                     <small>{{ oficina.personas.count }} empleados</small>
                 </div>
                 <div>
-                    <a href="{% url 'oficina:detalle' oficina.pk %}" class="btn btn-sm btn-info me-1">Ver detalle</a>
-                    <a href="{% url 'oficina:empleados' oficina.pk %}" class="btn btn-sm btn-secondary">Ver empleados</a>
+                    <a href="{% url 'oficina:empleados' oficina.pk %}" class="btn btn-sm btn-info me-1">Ver empleados</a>
                 </div>
             </div>
             {% endfor %}

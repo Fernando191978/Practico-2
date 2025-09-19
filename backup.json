@@ -1,0 +1,838 @@
+[
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Persona",
+    "content_type": [
+      "persona",
+      "persona"
+    ],
+    "codename": "add_persona"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Persona",
+    "content_type": [
+      "persona",
+      "persona"
+    ],
+    "codename": "change_persona"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Persona",
+    "content_type": [
+      "persona",
+      "persona"
+    ],
+    "codename": "delete_persona"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Persona",
+    "content_type": [
+      "persona",
+      "persona"
+    ],
+    "codename": "view_persona"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Oficina",
+    "content_type": [
+      "oficina",
+      "oficina"
+    ],
+    "codename": "add_oficina"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Oficina",
+    "content_type": [
+      "oficina",
+      "oficina"
+    ],
+    "codename": "change_oficina"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Oficina",
+    "content_type": [
+      "oficina",
+      "oficina"
+    ],
+    "codename": "delete_oficina"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Oficina",
+    "content_type": [
+      "oficina",
+      "oficina"
+    ],
+    "codename": "view_oficina"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add captcha store",
+    "content_type": [
+      "captcha",
+      "captchastore"
+    ],
+    "codename": "add_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change captcha store",
+    "content_type": [
+      "captcha",
+      "captchastore"
+    ],
+    "codename": "change_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete captcha store",
+    "content_type": [
+      "captcha",
+      "captchastore"
+    ],
+    "codename": "delete_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view captcha store",
+    "content_type": [
+      "captcha",
+      "captchastore"
+    ],
+    "codename": "view_captchastore"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Zg9OZgxsKJ00YISCSelIxZ$aHtK7vDcTlVkIC8O/x5aa/pRnwTlTYrnD40Dj4bttR8=",
+    "last_login": "2025-08-11T20:54:24.666Z",
+    "is_superuser": true,
+    "username": "fernando",
+    "first_name": "",
+    "last_name": "",
+    "email": "fernando.pintos@itscordoba.edu.ar",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-11T20:50:51.710Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ob3poYiFZh6sFtdXshSI4a$gxch4RcU4+t4e3DXH/Zw4jyvCC3MzGv/39gqmPKz/z0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "fernando01",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-20T01:26:26.757Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$hapwkymVrkZ7foETvwczXB$e7UYnzt1UlbjOYPt/9alcikluZ68obw0/tBljC7+Xmg=",
+    "last_login": "2025-08-20T01:32:21.392Z",
+    "is_superuser": false,
+    "username": "fernando02",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-08-20T01:32:02.020Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$F0o4bNcz8657R5M5GP8WRs$mct2MKpxgToMXQeFqr9kTKlPAvu4OqLWDSyT9Qvmnug=",
+    "last_login": "2025-08-23T02:44:29.768Z",
+    "is_superuser": true,
+    "username": "fernando1978",
+    "first_name": "",
+    "last_name": "",
+    "email": "fernando.pintos@itscordoba.edu.ar",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-23T02:43:02.593Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 1,
+  "fields": {
+    "nombre": "federico",
+    "apellido": "gonzales",
+    "edad": 45,
+    "oficina": 1
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 2,
+  "fields": {
+    "nombre": "raul",
+    "apellido": "pintos",
+    "edad": 38,
+    "oficina": 2
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 3,
+  "fields": {
+    "nombre": "franco",
+    "apellido": "perez",
+    "edad": 25,
+    "oficina": 3
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 5,
+  "fields": {
+    "nombre": "Andrea",
+    "apellido": "Díaz",
+    "edad": 36,
+    "oficina": 6
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 6,
+  "fields": {
+    "nombre": "Roberto",
+    "apellido": "Hernández",
+    "edad": 39,
+    "oficina": 7
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 7,
+  "fields": {
+    "nombre": "Isabel",
+    "apellido": "Moreno",
+    "edad": 32,
+    "oficina": 8
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 8,
+  "fields": {
+    "nombre": "Francisco",
+    "apellido": "Álvarez",
+    "edad": 41,
+    "oficina": 9
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 9,
+  "fields": {
+    "nombre": "Carmen",
+    "apellido": "Jiménez",
+    "edad": 30,
+    "oficina": 10
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 10,
+  "fields": {
+    "nombre": "Antonio",
+    "apellido": "Ruiz",
+    "edad": 44,
+    "oficina": 11
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 11,
+  "fields": {
+    "nombre": "Patricia",
+    "apellido": "Navarro",
+    "edad": 34,
+    "oficina": 12
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 12,
+  "fields": {
+    "nombre": "Jorge",
+    "apellido": "Serrano",
+    "edad": 37,
+    "oficina": 13
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 13,
+  "fields": {
+    "nombre": "Raquel",
+    "apellido": "Molina",
+    "edad": 28,
+    "oficina": 14
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 14,
+  "fields": {
+    "nombre": "Sergio",
+    "apellido": "Ortega",
+    "edad": 43,
+    "oficina": 15
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 15,
+  "fields": {
+    "nombre": "Eva",
+    "apellido": "Guerrero",
+    "edad": 36,
+    "oficina": 6
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 16,
+  "fields": {
+    "nombre": "Alberto",
+    "apellido": "Méndez",
+    "edad": 39,
+    "oficina": 7
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 17,
+  "fields": {
+    "nombre": "Clara",
+    "apellido": "Rivera",
+    "edad": 32,
+    "oficina": 8
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 18,
+  "fields": {
+    "nombre": "Joaquín",
+    "apellido": "Soto",
+    "edad": 41,
+    "oficina": 9
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 19,
+  "fields": {
+    "nombre": "Teresa",
+    "apellido": "Vega",
+    "edad": 30,
+    "oficina": 10
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 20,
+  "fields": {
+    "nombre": "Marcos",
+    "apellido": "Silva",
+    "edad": 44,
+    "oficina": 11
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 21,
+  "fields": {
+    "nombre": "Silvia",
+    "apellido": "Paredes",
+    "edad": 34,
+    "oficina": 12
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 22,
+  "fields": {
+    "nombre": "Rubén",
+    "apellido": "Núñez",
+    "edad": 37,
+    "oficina": 13
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 23,
+  "fields": {
+    "nombre": "Lorena",
+    "apellido": "Medina",
+    "edad": 28,
+    "oficina": 14
+  }
+},
+{
+  "model": "persona.persona",
+  "pk": 24,
+  "fields": {
+    "nombre": "Pablo",
+    "apellido": "Rojas",
+    "edad": 43,
+    "oficina": 15
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 1,
+  "fields": {
+    "nombre": "administracion",
+    "nombre_corto": "admin"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 2,
+  "fields": {
+    "nombre": "recursos humanos",
+    "nombre_corto": "rrhh"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 3,
+  "fields": {
+    "nombre": "contabilidad",
+    "nombre_corto": "cont."
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 5,
+  "fields": {
+    "nombre": "tesoreria",
+    "nombre_corto": ""
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 6,
+  "fields": {
+    "nombre": "Gerencia Central",
+    "nombre_corto": "GC"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 7,
+  "fields": {
+    "nombre": "Departamento de Desarrollo de Software",
+    "nombre_corto": "DEV"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 8,
+  "fields": {
+    "nombre": "Área de Control de Calidad",
+    "nombre_corto": "QUALITY"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 9,
+  "fields": {
+    "nombre": "Oficina de Relaciones Internacionales",
+    "nombre_corto": "INTERNAC"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 10,
+  "fields": {
+    "nombre": "Departamento de Investigación y Desarrollo",
+    "nombre_corto": "I+D"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 11,
+  "fields": {
+    "nombre": "Unidad de Compras y Adquisiciones",
+    "nombre_corto": "COMPRAS"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 12,
+  "fields": {
+    "nombre": "Gerencia de Infraestructura",
+    "nombre_corto": "INFRA"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 13,
+  "fields": {
+    "nombre": "Área de Comunicación Institucional",
+    "nombre_corto": "COMUNIC"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 14,
+  "fields": {
+    "nombre": "Departamento de Planificación Estratégica",
+    "nombre_corto": "PLAN"
+  }
+},
+{
+  "model": "oficina.oficina",
+  "pk": 15,
+  "fields": {
+    "nombre": "Oficina de Auditoría Interna",
+    "nombre_corto": "AUDIT"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 25,
+  "fields": {
+    "challenge": "FAHPS",
+    "response": "fahps",
+    "hashkey": "5f82c1510d4b168e5caee24c888b08d186b34dc6",
+    "expiration": "2025-08-20T01:33:06.747Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 27,
+  "fields": {
+    "challenge": "PMXAQ",
+    "response": "pmxaq",
+    "hashkey": "3c0fce7574866cc7140f4dbd8d339f0e19bec620",
+    "expiration": "2025-08-20T01:34:55.921Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 28,
+  "fields": {
+    "challenge": "SPJOU",
+    "response": "spjou",
+    "hashkey": "cb59de843f5215f2ea269bcbf61d41b3d351b39a",
+    "expiration": "2025-08-20T01:35:48.366Z"
+  }
+}
+]
